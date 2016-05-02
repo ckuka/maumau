@@ -13,4 +13,22 @@
 	<packaging>eclipse-plugin</packaging>
 	<name>MauMau :: Bundles :: Core :: RCP</name>
 	<description>Description</description>
+
+	<properties>
+		<javacpp.version>1.1</javacpp.version>
+		<javacv.version>1.1</javacv.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacpp</artifactId>
+			<version>${javacpp.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv</artifactId>
+			<version>${javacv.version}</version>
+		</dependency>
+	</dependencies>
 </project>
