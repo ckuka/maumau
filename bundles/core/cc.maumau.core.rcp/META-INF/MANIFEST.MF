@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MauMau :: Core :: RCP
+Bundle-SymbolicName: cc.maumau.core.rcp;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cc.maumau.core.rcp.Activator
+Bundle-Vendor: Christian Kuka
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt;bundle-version="3.6.0",
+ org.eclipse.ui;bundle-version="3.6.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
