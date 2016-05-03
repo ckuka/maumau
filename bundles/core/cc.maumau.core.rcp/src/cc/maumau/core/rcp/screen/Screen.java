@@ -7,10 +7,10 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 
 /**
-*
-* @author Christian Kuka <christian@kuka.cc>
-*
-*/
+ *
+ * @author Christian Kuka <christian@kuka.cc>
+ *
+ */
 public class Screen {
 
 	public static BufferedImage capture(int delay) throws AWTException {
